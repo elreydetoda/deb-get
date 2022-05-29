@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+
+# https://elrey.casa/bash/scripting/harden
+set -${-//[sc]/}${DEBUG:+xv}
+
 LC_ALL=C
 
 function usage() {
